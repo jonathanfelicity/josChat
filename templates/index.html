@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+
+{% block main %}
+<h1>Home page</h1>
+<img src="{{ url_for('static', filename='./img/banner.jpg')}}" alt="This is a sweet banner" >
+<p>{{ phrase }}</p>
+{% endblock main%}
